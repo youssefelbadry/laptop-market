@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card-Product || Login</title>
+    <link rel="shortcut icon" type="image/png" href="../image/logo.webp" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/all.css" />
+    <link rel="stylesheet" href="../boot/bootstrap.min.css" />
+  </head>
+  <body>
+    <header class="p-3 bg-dark text-white">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <img
+            src="../image/laptop-logo-png.png"
+            alt=""
+            style="width: 50px; height: 50px"
+          />
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="index.html" class="nav-link px-2 text-warning">Home</a>
+            </li>
+            <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+            <!-- <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li> -->
+            <!-- <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li> -->
+            <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+          </ul>
+          <div class="text-end">
+            <a href="register.html"
+              ><button type="button" class="btn btn-warning">Sign-up</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container sec bg-warning mt-5">
+      <div class="words col-sm-6 col-6">
+        <h2 class="get">Get Started Now</h2>
+        <input type="text" placeholder="Enter your name" id="username" />
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+        <input type="submit" value="Sign in" id="signin" />
+        <div class="div">
+          <p>OR</p>
+          <p>You Dont Have An Account?</p>
+          <button type="button" class="btn btn-dark">
+            <a
+              href="register.html"
+              class="text-light"
+              style="text-decoration: none"
+              >Sign Up</a
+            >
+          </button>
+        </div>
+      </div>
+      <div class="bggphoto col-sm-6 col-6"></div>
+    </div>
+    <link rel="stylesheet" href="boot/bootstrap.bundle.min.js" />
+    <script src="../js/login.js"></script>
+  </body>
+</html>

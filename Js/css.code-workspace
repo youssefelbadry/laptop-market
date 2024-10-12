@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../../for me/css"
+    },
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "shopping"
+  }
+}
