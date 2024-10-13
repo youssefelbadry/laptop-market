@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card-Product || Laptop</title>
-    <link rel="shortcut icon" type="image/png" href="../image/logo.webp" />
+    <title>Laptob</title>
+    <link rel="shortcut icon" type="image/png" href="image/logo.webp" />
 
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/all.css" />
-    <link rel="stylesheet" href="../boot/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="boot/bootstrap.min.css" />
   </head>
   <body>
     <header class="p-3 bg-dark text-white">
@@ -16,11 +16,11 @@
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
         >
-        <img
-        src="../image/laptop-logo-png.png"
-        alt=""
-        style="width: 50px; height: 50px"
-      />
+          <img
+            src="image/laptop-logo-png.png"
+            alt=""
+            style="width: 50px; height: 50px"
+          />
           <a
             href="/"
             class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
@@ -48,16 +48,16 @@
 
           <div class="shela">
             <ul id="links">
-              <li>
+              <!-- <li>
                 <button class="btn btn-warning">
                   <a href="login.html">Sign in</a>
                 </button>
               </li>
               <li>
                 <button class="btn btn-warning">
-                  <a href="../html/register.html">Sign up</a>
+                  <a href="html/register.html">Sign up</a>
                 </button>
-              </li>
+              </li> -->
             </ul>
 
             <!-- <div class="container"> -->
@@ -73,7 +73,8 @@
             </div>
             <div class="carts_products">
               <div></div>
-              <!-- <a href="cartsproducts.html">View All Products</a> -->
+              <div class="price"></div>
+              <a href="cards.html" id="gobadge">View All Products</a>
             </div>
             <!-- </div> -->
           </div>
@@ -82,13 +83,14 @@
     </header>
 
     <div class="container home">
+      <input type="search" placeholder="Search By Name" id="search" />
       <div class="product-item col-sm-12 row mx-2 my-5"></div>
-      <div class="noproducts text-warning">NO PRODUCTS</div>
     </div>
 
-    <link rel="stylesheet" href="../boot/bootstrap.bundle.min.js"/>
-    <script src="../js/cards.js"></script>
-    <script src="../js/user.js"></script>
-    <script src="../js/products.js"></script>
+    <link rel="stylesheet" href="boot/bootstrap.bundle.min.js" />
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/user.js"></script>
   </body>
 </html>
+

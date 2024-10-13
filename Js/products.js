@@ -5,7 +5,7 @@ let products = [
     des: "E1 9520 Business Laptop Intel Core i7-12700H 16GB RAM 1TB SSD NVidia GeForce RTX 3050 Ti 4GB 15.6-inch FHD+ Win 11",
     color: "Platinum Silver",
     price: "86000 EGP",
-    Image: "../image/1.webp",
+    Image: "./image/1.webp",
     qtr :1,
   },
   {
@@ -14,7 +14,7 @@ let products = [
     des: "FX506HE-HN059 Gaming Laptop Intel Ci7-11800H 15.6 Inch FHD 144Hz 16GB RAM 1TB SSD GeForce RTX 3050 Ti 4GB",
     color: "Black",
     price: "65000 EGP",
-    Image: "../image/2.webp",
+    Image: "./image/2.webp",
     qtr :1,
   },
   {
@@ -23,7 +23,7 @@ let products = [
     des: "15ACH6H Gaming Laptop AMD R7-5800H 16GB RAM 512GB SSD 15.6-inch FHD 165Hz NVidia GeForce RTX 3070 8GB + RGB Mouse M300",
     color: "Black",
     price: "80000 EGP",
-    Image: "../image/3.webp",
+    Image: "./image/3.webp",
     qtr :1,
   },
   {
@@ -32,7 +32,7 @@ let products = [
     des: "X13 GV301RA-LI064W Gaming Laptop AMD R7-6800HS 16GB RAM 512GB SSD 13.4-inch WQUXGA Touch with Pen Win 11",
     color: "Black",
     price: "90000 EGP",
-    Image: "../image/4.webp",
+    Image: "./image/4.webp",
     qtr :1,
   },
   {
@@ -41,7 +41,7 @@ let products = [
     des: "Laptop Intel Ci3-10110U 4GB RAM 1TB HDD Intel UHD Graphics 15.6-inch HD",
     color: "Gray",
     price: "16000 EGP",
-    Image: "../image/5.webp",
+    Image: "./image/5.webp",
     qtr :1,
   },
   {
@@ -50,7 +50,7 @@ let products = [
     des: "Strix G614JZ-NN007W Gaming Laptop 16-inch 165Hz Intel Ci7-13650HX 16GB RAM 1TB SSD RTX 4080 12GB",
     color: "Gray",
     price: "125000 EGP",
-    Image: "../image/6.webp",
+    Image: "./image/6.webp",
     qtr :1,
   },
 
@@ -60,7 +60,7 @@ let products = [
     des: " Scar 17 G733ZX-KH059W Gaming Laptop 17.3 Inch FHD 360Hz Intel Ci9-12900H 32GB RAM 1TB SSD RTX 3080 Ti 16GB Win 11",
     color: "Black",
     price: "135000 EGP",
-    Image: "../image/7.webp",
+    Image: "./image/7.webp",
     qtr :1,
   },
   {
@@ -69,7 +69,7 @@ let products = [
     des: "X13 GV301RC-LJ062W Gaming Laptop 13.4 inch WUXGA 120Hz AMD Ryzen7-6800HS 16G RAM 512GB SSD RTX 3050 4GB Win11",
     color: "Gray",
     price: "52000 EGP",
-    Image: "../image/8.webp",
+    Image: "./image/8.webp",
     qtr :1,
   },
   {
@@ -78,7 +78,7 @@ let products = [
     des: "Dragonfly G2 Notebook Intel CI7-1165G7 16GB RAM 512G SSD Intel Iris Xe Graphics 13.3 Inch FHD Win10 Pro",
     color: "Blue",
     price: "88000 EGP",
-    Image: "../image/9.webp",
+    Image: "./image/9.webp",
     qtr :1,
   },
   {
@@ -87,7 +87,7 @@ let products = [
     des: "3520 Laptop Intel Ci7-1255U 8GB RAM 512GB SSD NVidia GeForce MX550 2GB 15.6-inch FHD 120Hz Ubuntu Titan",
     color: "Gray",
     price: "35000 EGP",
-    Image: "../image/10.webp",
+    Image: "./image/10.webp",
     qtr :1,
   },
   {
@@ -96,7 +96,7 @@ let products = [
     des: "15IAL7 Laptop Intel Ci7-1255U 16GB RAM 512GB SSD 15.6-inch FHD Intel iris Xe Graphics FingerPrint Win11",
     color: "Gray",
     price: "30000 EGP",
-    Image: "../image/11.webp",
+    Image: "./image/11.webp",
     qtr :1,
   },
   {
@@ -105,7 +105,7 @@ let products = [
     des: "Flip OLED UP3404VA-OLED005W Intel Ci5-1340P 8GB RAM 512GB SSD Intel Iris Xe Graphics 14.0-Inch OLED Win 11",
     color: "Blue",
     price: "45000 EGP",
-    Image: "../image/12.webp",
+    Image: "./image/12.webp",
     qtr :1,
   },
   {
@@ -114,7 +114,7 @@ let products = [
     des: "OLED UX5304VA-OLED517W Intel Ci7-1355U 16GB RAM 512GB SSD Intel Iris Xe Graphics 13.3-Inch OLED Win 11",
     color: "Blue",
     price: "65000 EGP",
-    Image: "../image/13.webp",
+    Image: "./image/13.webp",
     qtr :1,
   },
   {
@@ -123,7 +123,7 @@ let products = [
     des: "Laptop Intel Ci5-1135G7 8GB RAM 256GB SSD Intel Iris Xe Graphics 15.6 inch FHD Win11",
     color: "Silver",
     price: "25000 EGP",
-    Image: "../image/14.webp",
+    Image: "./image/14.webp",
     qtr :1,
   },
   {
@@ -132,7 +132,7 @@ let products = [
     des: "6ACHg6 Gaming Laptop AMD R9 5900HX 32GB RAM 2TB SSD 16-inch WQXGA 165Hz NVidia GeForce RTX 3080 16GB Win11",
     color: "Black",
     price: "115000 EGP",
-    Image: "../image/15.webp",
+    Image: "./image/15.webp",
     qtr :1,
   },
 ];
